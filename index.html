@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <title>Jordan 3D Product Card</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="product">
+
+               <img src="images/shoes.png" id="frontImg" alt="">
+               <img src="images/shoes.png" id="backImg" alt="">
+
+                <div class="productInner" id="productBox">
+                    <div class="productFront">
+                        <div class="productTop">
+                            <h1>Jordan</h1>
+                        </div>
+                        <div class="productBottom">
+                            <p>Jordan Air Shoes</p>
+                            <h2>The coolest thing ever</h2>
+                            <h1>199 <span>$</span></h1>
+                            <button type="button">Grab It Now</button>
+                            <div class="colorSelect">
+                                <div class="selectItem">
+                                    <img src="images/shoes-icon.png" alt="">
+                                </div>
+                                <div class="selectItem">
+                                    <img src="images/shoes-icon2.png" onclick="flipRight()" alt="">
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productBack">
+                        <div class="productTop productTop2">
+                            <h1>Jordan</h1>
+                        </div>
+                        <div class="productBottom">
+                            <p>Jordan Air Shoes</p>
+                            <h2>The coolest thing ever</h2>
+                            <h1>199 <span>$</span></h1>
+                            <button type="button">Grab It Now</button>
+                            <div class="colorSelect">
+                                <div class="selectItem">
+                                    <img src="images/shoes-icon.png" onclick="flipLeft()" alt="">
+                                </div>
+                                <div class="selectItem">
+                                    <img src="images/shoes-icon2.png" alt="">
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leftSide"></div>
+                    <div class="rightSide"></div>
+                </div>
+            </div>
+        </div>
+    <script src="index.js"></script>
+    </body>
+</html>
